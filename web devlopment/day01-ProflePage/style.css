@@ -1,0 +1,42 @@
+body {
+    background-color: teal;
+    font-family: Arial,sans-serif;
+    color:white;
+    text-align: center;
+    padding: 40px;
+}
+h1{
+    color: #38bdf8;
+}
+h2{
+    color: #22c55e;
+    margin-top: 20px;
+}
+p{
+    font-size: 18px;
+}
+ul, ol{
+    background-color: #1e293b;
+    padding: 15px;
+    border-radius: 10px;
+
+}
+a{
+    color:gold;
+    text-decoration: none;
+}
+a:hover{
+    text-decoration: underline;
+}
+img{
+    border: 3px solid #38bdf8;
+    border-radius: 50%;
+}
+.card{
+    background-color: blue;
+    padding: 30px;
+    border: 20px solid black;
+    max-width: 600px;
+    margin: auto;
+}
+
