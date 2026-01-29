@@ -17,7 +17,8 @@ public class day6a {
         }
         sc.close();
         }
-
 }
+
+
 
 

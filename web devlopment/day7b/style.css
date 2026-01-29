@@ -1,0 +1,32 @@
+body 
+{
+font-family: Arial, Helvetica, sans-serif;
+background-color: black;
+color: white;
+display: flex;
+justify-content: center;
+align-items: center;
+height: 100vh;
+}
+
+.box
+{
+    background: #0f172a;
+    padding: 30px;
+    border-radius: 12px;
+    text-align: center;
+
+}
+button{
+    padding: 10px 20px;
+    font-size: 18px;
+    margin: 5px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+
+button:hover{
+    background-color: #38bdf8;
+}

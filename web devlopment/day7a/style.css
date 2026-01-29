@@ -1,0 +1,30 @@
+
+
+    /* minimal styles so you can test quickly */
+    body {
+        font-family: Arial;
+        background: black;
+        color: white;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        height: 100vh;
+    }
+
+    .box {
+        background: #01133b;
+        padding: 25px;
+        border-radius: 8px;
+        text-align: center;
+    }
+
+    input,
+    button {
+        padding: 10px 15px;
+        margin: 6px;
+    }
+
+    #result {
+        margin-top: 10px;
+        color: #ffd;
+    }
