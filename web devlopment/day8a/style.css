@@ -1,0 +1,32 @@
+body {
+    background-color: black;
+    color: white;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 20px;
+
+    /* These three lines center your calculator */
+    display: flex;
+    justify-content: center;
+    /* Centers horizontally */
+    align-items: center;
+    /* Centers vertically */
+    min-height: 100vh;
+    /* Makes the body take up the full screen height */
+    margin: 0;
+    /* Removes default browser spacing */
+}
+
+.box {
+    padding: 30px;
+    border-radius: 12px;
+    text-align: center;
+    background-color: rgb(1, 62, 1);
+    box-shadow: 0px 4px 15px rgba(0, 0, 0, 0.5);
+    /* Added a slight shadow for depth */
+}
+button {
+    /* ... your existing code ... */
+    transition: background-color 0.3s ease;
+    width: 50px;
+    /* Making buttons square often looks better for calculators */
+}
