@@ -24,5 +24,6 @@ public class Day9 {
         if (!loggedIn) {
             System.out.println("you have no more attempts. the account has been locked");
         }
+    src.close();
     }
 }
