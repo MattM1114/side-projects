@@ -1,0 +1,30 @@
+body{
+    font-family: Arial, Helvetica, sans-serif;
+    background: black;
+    color: white;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+}
+
+.box{
+    background: #01133b;
+    padding: 25px;
+    border-radius: 12px;
+    width: 400px;
+}
+
+.item{
+    display:flex;
+    justify-content: space-between;
+    margin-bottom: 10px;
+}
+
+button{
+    cursor: pointer;
+    padding: 5px 10px;
+}
+ul{
+    padding-left: 20px;
+}
