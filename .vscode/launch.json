@@ -3,6 +3,20 @@
   "configurations": [
     {
       "type": "java",
+      "name": "day14b",
+      "request": "launch",
+      "mainClass": "day14b",
+      "projectName": "practice_a130a6eb"
+    },
+    {
+      "type": "java",
+      "name": "day14a",
+      "request": "launch",
+      "mainClass": "day14a",
+      "projectName": "practice_a130a6eb"
+    },
+    {
+      "type": "java",
       "name": "day13b$BankAccount",
       "request": "launch",
       "mainClass": "day13b$BankAccount",

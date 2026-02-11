@@ -1,0 +1,7 @@
+order_id,customer,amount,region
+1,Alice,200,North
+2,Bob,150,South
+3,Alice,300,North
+4,Charlie,invalid,West
+5,Bob,250,South
+6,Alice,100,North
