@@ -1,0 +1,9 @@
+Customer,Total
+customer,Total Sales
+Alice,600.0
+Bob,400.0
+
+Region Totals
+Region,Total Sales
+North,600.0
+South,400.0

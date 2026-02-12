@@ -1,0 +1,28 @@
+body{
+    font-family: Arial, Helvetica, sans-serif;
+    background: black;
+    color: white;
+    text-align: center;
+}
+#game{
+    display: grid;
+    grid-template-columns: repeat(4, 80px);
+    gap:10px;
+    justify-content: center;
+    margin: 20px;
+}
+.card{
+    width: 80px;
+    height: 80px;
+    background: #01133b;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    cursor: pointer;
+    font-size: 24px;
+
+}
+.flipped{
+    background: white;
+    color: black;
+}
