@@ -3,6 +3,20 @@
   "configurations": [
     {
       "type": "java",
+      "name": "RGTEventsSystem",
+      "request": "launch",
+      "mainClass": "com.mycompany.rgteventssystem.RGTEventsSystem",
+      "projectName": "RGTEventsSystem"
+    },
+    {
+      "type": "java",
+      "name": "RGTEventsSystem",
+      "request": "launch",
+      "mainClass": "RGTEventsSystem.src.main.java.com.mycompany.rgteventssystem.RGTEventsSystem",
+      "projectName": "practice_a130a6eb"
+    },
+    {
+      "type": "java",
       "name": "day14b",
       "request": "launch",
       "mainClass": "day14b",
