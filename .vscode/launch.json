@@ -3,6 +3,13 @@
   "configurations": [
     {
       "type": "java",
+      "name": "Day2",
+      "request": "launch",
+      "mainClass": "Day2",
+      "projectName": ""
+    },
+    {
+      "type": "java",
       "name": "RGTEventsSystem",
       "request": "launch",
       "mainClass": "com.mycompany.rgteventssystem.RGTEventsSystem",
