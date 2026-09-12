@@ -1,152 +1,96 @@
 {
-  "version": "0.2.0",
   "configurations": [
     {
       "type": "java",
-      "name": "Day2",
+      "name": "day11",
       "request": "launch",
-      "mainClass": "Day2",
+      "mainClass": "day11",
       "projectName": ""
-    },
-    {
-      "type": "java",
-      "name": "RGTEventsSystem",
-      "request": "launch",
-      "mainClass": "com.mycompany.rgteventssystem.RGTEventsSystem",
-      "projectName": "RGTEventsSystem"
-    },
-    {
-      "type": "java",
-      "name": "RGTEventsSystem",
-      "request": "launch",
-      "mainClass": "RGTEventsSystem.src.main.java.com.mycompany.rgteventssystem.RGTEventsSystem",
-      "projectName": "practice_a130a6eb"
-    },
-    {
-      "type": "java",
-      "name": "day14b",
-      "request": "launch",
-      "mainClass": "day14b",
-      "projectName": "practice_a130a6eb"
     },
     {
       "type": "java",
       "name": "day14a",
       "request": "launch",
       "mainClass": "day14a",
-      "projectName": "practice_a130a6eb"
+      "projectName": ""
     },
     {
       "type": "java",
       "name": "day13b$BankAccount",
       "request": "launch",
       "mainClass": "day13b$BankAccount",
-      "projectName": "practice_a130a6eb"
-    },
-    {
-      "type": "java",
-      "name": "day12b",
-      "request": "launch",
-      "mainClass": "day12b",
-      "projectName": "practice_a130a6eb"
-    },
-    {
-      "type": "java",
-      "name": "day12a",
-      "request": "launch",
-      "mainClass": "day12a",
-      "projectName": "practice_a130a6eb"
-    },
-    {
-      "type": "java",
-      "name": "day11",
-      "request": "launch",
-      "mainClass": "day11",
-      "projectName": "practice_a130a6eb"
-    },
-    {
-      "type": "java",
-      "name": "Day10",
-      "request": "launch",
-      "mainClass": "Day10",
-      "projectName": "practice_a130a6eb"
-    },
-    {
-      "type": "java",
-      "name": "Day9",
-      "request": "launch",
-      "mainClass": "Day9",
-      "projectName": "practice_a130a6eb"
-    },
-    {
-      "type": "java",
-      "name": "Day8a",
-      "request": "launch",
-      "mainClass": "Day8a",
-      "projectName": "practice_a130a6eb"
-    },
-    {
-      "type": "java",
-      "name": "day7b",
-      "request": "launch",
-      "mainClass": "day7b",
-      "projectName": "practice_a130a6eb"
-    },
-    {
-      "type": "java",
-      "name": "day7a",
-      "request": "launch",
-      "mainClass": "day7a",
-      "projectName": "practice_a130a6eb"
-    },
-    {
-      "type": "java",
-      "name": "day6b",
-      "request": "launch",
-      "mainClass": "day6b",
-      "projectName": "practice_a130a6eb"
-    },
-    {
-      "type": "java",
-      "name": "day6a",
-      "request": "launch",
-      "mainClass": "day6a",
-      "projectName": "practice_a130a6eb"
-    },
-    {
-      "type": "java",
-      "name": "day5b",
-      "request": "launch",
-      "mainClass": "day5b",
-      "projectName": "practice_a130a6eb"
-    },
-    {
-      "type": "java",
-      "name": "Day5a",
-      "request": "launch",
-      "mainClass": "Day5a",
-      "projectName": "practice_a130a6eb"
+      "projectName": ""
     },
     {
       "type": "java",
       "name": "Day4",
       "request": "launch",
       "mainClass": "Day4",
-      "projectName": "practice_a130a6eb"
+      "projectName": ""
     },
     {
-      "type": "java",
-      "name": "Day3",
+      "name": "C/C++: g++.exe build and debug active file",
+      "type": "cppdbg",
       "request": "launch",
-      "mainClass": "Day3",
-      "projectName": "practice_a130a6eb"
+      "program": "${fileDirname}\\${fileBasenameNoExtension}.exe",
+      "args": [],
+      "stopAtEntry": false,
+      "cwd": "${fileDirname}",
+      "environment": [],
+      "externalConsole": false,
+      "MIMode": "gdb",
+      "miDebuggerPath": "C:\\msys64\\ucrt64\\bin\\gdb.exe",
+      "setupCommands": [
+        {
+          "description": "Enable pretty-printing for gdb",
+          "text": "-enable-pretty-printing",
+          "ignoreFailures": true
+        },
+        {
+          "description": "Set Disassembly Flavor to Intel",
+          "text": "-gdb-set disassembly-flavor intel",
+          "ignoreFailures": true
+        }
+      ],
+      "preLaunchTask": "C/C++: g++.exe build active file"
     },
     {
-      "type": "java",
-      "name": "Day2",
+      "name": "C/C++: gcc.exe build and debug active file",
+      "type": "cppdbg",
       "request": "launch",
-      "mainClass": "Day2",
-      "projectName": "practice_a130a6eb"
+      "program": "${fileDirname}\\${fileBasenameNoExtension}.exe",
+      "args": [],
+      "stopAtEntry": false,
+      "cwd": "C:/msys64/ucrt64/bin",
+      "environment": [],
+      "externalConsole": false,
+      "MIMode": "gdb",
+      "miDebuggerPath": "C:\\msys64\\ucrt64\\bin\\gdb.exe",
+      "setupCommands": [
+        {
+          "description": "Enable pretty-printing for gdb",
+          "text": "-enable-pretty-printing",
+          "ignoreFailures": true
+        },
+        {
+          "description": "Set Disassembly Flavor to Intel",
+          "text": "-gdb-set disassembly-flavor intel",
+          "ignoreFailures": true
+        }
+      ],
+      "preLaunchTask": "C/C++: gcc.exe build active file"
+    },
+    {
+      "name": "C/C++: cl.exe build and debug active file",
+      "type": "cppvsdbg",
+      "request": "launch",
+      "program": "${fileDirname}\\${fileBasenameNoExtension}.exe",
+      "args": [],
+      "stopAtEntry": false,
+      "cwd": "${fileDirname}",
+      "environment": [],
+      "console": "integratedTerminal",
+      "preLaunchTask": "C/C++: cl.exe build active file"
     },
     {
       "name": "C/C++ Runner: Debug Session",
@@ -167,5 +111,6 @@
         }
       ]
     }
-  ]
+  ],
+  "version": "2.0.0"
 }
